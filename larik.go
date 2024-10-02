@@ -17,10 +17,10 @@ func main() {
 	fmt.Println(names[2])
 
 	//	create array directly
-	var values = [3]int{1, 3}
+	var values = [...]int{1, 3}
 	fmt.Println(values)
 	fmt.Println(values[0])
 	fmt.Println(values[1])
-	fmt.Println(values[2])
+	//fmt.Println(values[2])
 
 }
