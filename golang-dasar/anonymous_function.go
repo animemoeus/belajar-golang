@@ -18,5 +18,5 @@ func main() {
 		return name == "anjing"
 	}
 
-	registerUser("arter", blacklist)
+	registerUser("anjing", blacklist)
 }
