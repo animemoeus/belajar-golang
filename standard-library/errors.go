@@ -22,9 +22,9 @@ func createPost(title string) (string, error) {
 
 func main() {
 
-	//post, err := createPost("")
-	var post string
-	var err error
+	post, err := createPost("")
+	//var post string
+	//var err error
 	post, err = createPost("arter tendean")
 
 	if err != nil {
